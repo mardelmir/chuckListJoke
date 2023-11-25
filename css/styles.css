@@ -27,5 +27,13 @@ button:hover {
   background-color: #0056b3;
 }
 
+ul {
+  list-style: none;
+}
+
+.eliminar {
+  background-color: crimson;
+}
+
 
 
