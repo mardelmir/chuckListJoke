@@ -21,6 +21,7 @@ button {
   color: #fff;
   border: none;
   cursor: pointer;
+  border-radius: 3px;
 }
 
 button:hover {
@@ -35,5 +36,29 @@ ul {
   background-color: crimson;
 }
 
+#jokeList {
+  list-style: none;
+  width: 90%;
+  padding: 0px;
+}
+
+.chiste {
+  border: 1px solid #E2E2E2;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+#clear {
+  background-color: crimson;
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+}
+
+.eliminar:hover, #clear:hover {
+  background-color: rgb(154, 0, 31);
+}
 
 
